@@ -6,17 +6,17 @@
 }
 
 button{
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 30px;
+    padding: 15px;
     border: none;
 }
 /***
 background-color temporanei
 ***/
-
+/*
 .bgcolor-blue {
     background-color: #00008b;
-}
+}*/
 
 .bgcolor-white {
     background-color: #ffffff;
@@ -60,14 +60,6 @@ div.login{
     text-align: end;
 }
 
-/***
-debugu
-***/
-/*
-.debugH {
-    border: 1px dashed black;
-}
-*/
 /**********MAIN**********/
 
 section {
@@ -78,31 +70,47 @@ section {
     margin: 0 auto;
 }
 
+p{
+    font-size: 25px;
+    line-height: 35px;
+}
 /***
 section1 container non flex
 ***/
 .section-1 {
-    border-bottom: 5px solid;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
 }
 
 .container-s1 {
-    /* attesa valori definitivi*/
+    text-align: center;
+    width: 800px;
+    padding: 130px 0px;
 }
 
-/***
-debugu
-***/
-.section-1-debug {
-    border-color: #add8e6;
+h1{
+    color: #ffffff;
+    font-size: 70px;
 }
 
-.cs1-debug {
-    width: 900px;
-    height: 400px;
-    background-color: #ee82ee;
-    border: 2px dashed black;
+.container-s1 p{
+    text-align: justify;
+    margin: 75px 0px;
+    color: #ffffff;
 }
 
+.container-s1 button{
+    font-size: 30px;
+}
+
+.container-s1 p+button{
+    margin-right: 30px;
+}
+
+.container-s1 button+button{
+    color: #ffffff;
+    background-color: #23272a;
+}
 /***
 section2-3-4-5 tutti flex
 ***/
