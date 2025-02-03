@@ -7,15 +7,8 @@
 
 button {
     border-radius: 30px;
-    padding: 15px;
+    padding: 10px 15px;
     border: none;
-}
-
-/***
-background-color temporanei
-***/
-.bgcolor-black {
-    background-color: #23272a;
 }
 
 /**********HEADER**********/
@@ -51,7 +44,7 @@ div.login {
 /**********MAIN**********/
 
 section {
-    padding: 100px 0px;
+    padding-top: 50px;
 }
 
 .general {
@@ -68,6 +61,9 @@ h2 {
     padding: 30px 10px 60px 0px;
 }
 
+.pbottom{
+    padding-bottom: 60px;
+}
 /***
 section1 container non flex
 ***/
@@ -84,7 +80,7 @@ section1 container non flex
 
 h1 {
     color: #ffffff;
-    font-size: 70px;
+    font-size: 60px;
 }
 
 .container-s1 p {
@@ -163,37 +159,28 @@ footer {
     margin: 0 auto;
 }
 
-/*
-.footer1 {
-    padding-bottom: 40px;
+.footer-space {
+    background-color: #23272a;
+    padding-bottom: 50px;
 }
-
-.footer2 {
-    padding: 30px 360px 0px 360px;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}
-*/
 /***
 primo container nel footer
 ***/
 .container-footer {
-    width: 1200px;
+    width: 1600px;
     display: flex;
     margin-bottom: 40px;
     padding-top: 50px;
 }
 
 .box-fsmall {
-    flex-grow: 2;
+    flex-grow: 0.5;
     color: #ffffff;
-    /*flex-basis: 30%;*/
 }
 
 .box-fbig {
     flex-grow: 8;
     /*flex nel flex*/
-    /*flex-basis: 70%;*/
     display: flex;
 }
 
@@ -203,17 +190,29 @@ primo container nel footer
 
 .mb-general div {
     color: #7288da;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 h3{
     color: #7288da;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
 .lenguage {
     display: flex;
     align-items: center;
+
+}
+
+.flag{
+    width: 25px;
+}
+
+.fa-brands{
+    padding: 20px 10px;
+    font-size: 20px;
 }
 
 span{
@@ -235,7 +234,7 @@ secondo container nel footer
 .container-footer2 {
     display: flex;
     justify-content: space-between;
-    width: 1300px;
+    width: 1600px;
     border-top: 1px solid #7288da;
     padding-top: 15px;
 }
